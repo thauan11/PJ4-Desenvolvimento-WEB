@@ -1,0 +1,389 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', serif;
+}
+
+/************************************
+ * HEADER
+*************************************/
+
+#header {
+    width: 100%;
+    min-height: 240px;
+    background: #294c71 url(../imagens/fundo.png) repeat-x bottom;
+}
+
+#header-container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#topo1 {
+    width: 100%;
+    float: left;
+    min-height: 179px;
+}
+
+#topo1 img.logo {
+    float: left;
+    padding-top: 20px;
+}
+
+#topo1 #fixo-nagevacao {
+    float: left;
+}
+
+#topo1 img.detalhe {
+    float: right;
+}
+
+#imagem-esquerda {
+    min-height: 66px;
+    background: url(../imagens/logo.png) no-repeat;
+}
+
+#imagem-direita {
+    min-height: 179px;
+    background: url(../imagens/detalhe-topo.png) no-repeat top;
+}
+
+/************************************
+ * BARRA DE NAVEGAÇÃO
+*************************************/
+#barra-navegacao {
+    padding-top: 20px;
+}
+
+#barra-navegacao ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    float: left;
+}
+
+#barra-navegacao ul a:hover {
+    color: #62021E;
+    font-weight: bold;
+}
+
+#barra-navegacao ul li {
+    background: #8c042c url(../imagens/divisor.png) no-repeat left;
+    float: left;
+}
+
+#barra-navegacao li.primeiro {
+    background-image: none;
+}
+
+#barra-navegacao .selecionado a {
+    background-color: #d00838;
+    cursor: no-drop;
+}
+
+#barra-navegacao ul .selecionado  a:hover {
+    color: #fff;
+    font-weight: normal;
+}
+
+#barra-navegacao a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 0.5em 1em;
+}
+
+/************************************
+ * CONTEUDO
+*************************************/
+#container {
+    max-width: 960px;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+
+#conteudo {
+    width: 70%;
+    float: right;
+}
+
+#fotos {
+    width: 100%;
+}
+
+.faixa-um h3 {
+    background: #d00838;
+    color: #151413;
+    text-transform: uppercase;
+    padding: 3px;
+    display: inline;
+    font-weight: bold;
+}
+
+.faixa-um-brasil h3 {
+    background: #d00838;
+    color: #151413;
+    text-transform: uppercase;
+    padding: 3px;
+    display: inline;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #d00838;
+    font-size: 1.2em;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #d00838;
+    font-size: 1.2em;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+.faixa-um {
+    float: left;
+    width: 48%;
+}
+
+.faixa-um-brasil {
+    float: left;
+    width: 100%;
+}
+
+.faixa-fotos {
+    width: 100%;
+}
+
+.faixa-dois {
+    float: right;
+    width: 48%;
+}
+
+.faixa-dois h3 {
+    background: #8c042c;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 3px;
+    display: inline;
+    font-weight: bold;
+}
+
+.parte1 img {
+    width: 100%;
+    padding-top: 10px;
+}
+
+ .padding-2 img {
+    width: 120px;
+    height: 60px;
+}
+
+ .padding-2 h4 { 
+    color: #5b7494;
+    display: inline;
+    text-align: top;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    padding-left: 5px;
+}
+
+ .padding-2 p { 
+    font-size: 1em;
+}
+
+.conteudo-mundo {
+    padding-left: 10px;
+}
+
+
+/*******************************************
+ * FORMATAÇÕES GERAIS (USADA NO SITE TODO)
+********************************************/
+.background-branco {
+    background: #fff;
+    padding: 10px;
+}
+.background-branco-flex {
+    background: #fff;
+    padding: 10px;
+    display: flex;
+}
+
+.background {
+    background: #fff url(../imagens/fundo-caixa.png);
+    padding-bottom: 10px;
+}
+
+.padding5 {
+    padding: 5px;
+}
+
+.padding10 {
+    padding: 10px;
+}
+
+.padding-2 {
+    padding: 25px 0;
+}
+
+.floater-esquerdo {
+    float: left;
+}
+
+.floater-esquerdo-100 {
+    float: left;
+    width: 100%;
+}
+
+.floater-esquerdo-80 {
+    float: left;
+    width: 90%;
+}
+
+.floater-direito {
+    float: right;
+}
+
+.padding-2 .floater-direito {
+    width: 70%;
+}
+
+.padding-2 .floater-esquerdo {
+    width: 30%;
+}
+
+.clear{
+    clear: both;
+    height: 1px;
+}
+
+/************************************
+ * BARRA LATERAL
+*************************************/
+
+#barra-lateral {
+    width: 25%;
+    float: left;
+}
+
+.titulo h2 {
+    color: #fff;
+    background-color: #294c71;
+    padding: 10px;
+    line-height: 1em;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.titulo {
+    padding-bottom: 20px;
+}
+
+#barra-lateral ul li {
+    list-style-type: none;
+}
+
+#barra-lateral a {
+    width: 100%;
+    text-decoration: none;
+    color: #151413;
+}
+
+#barra-lateral ul a {
+    margin: 0;
+    padding: 15px 10px;
+    float: left;
+}
+
+#barra-lateral a:hover {
+    background: url(../imagens/marcador.png) no-repeat left;
+    padding-left: 25px;
+    cursor: pointer;
+    color: #a4a4a4;
+    font-weight: bold;
+}
+
+.news {
+    float: left;
+}
+
+#entrevistados, #conteudo-news {
+    background: #fff;
+}
+
+#padding-news {
+    background: #fff;
+    padding: 10px;
+}
+
+/************************************
+ * FORMULARIO
+*************************************/
+/*#barra-lateral form {
+    padding: 5px;
+}*/
+
+#barra-lateral label {
+    display: block;
+    color: #151413;
+    font-size: 1.3em;
+    padding-bottom: 5px;
+}
+
+#barra-lateral input.email {
+    padding: 2px 5px 2px 5px;
+    width: 93.5%;
+    font-size: 1.06em;
+    border: 2px solid #ccc;
+}
+
+/*.div-email {
+    float: left;
+}*/
+
+#barra-lateral input.submit {
+    min-width: 100%;
+    padding: 5px;
+    background: #8c042c;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.16em;
+    border-style: none;
+    float: left;
+}
+
+#barra-lateral input.submit:hover {
+    background: #d00838;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.div-submit {
+    width: 220px;
+}
+
+
+/************************************
+ * FOOTER
+*************************************/
+#footer {
+    background-color: #294c71;
+    color: #fff;
+    font-weight: bold;
+    clear: both;
+    width: 100%;
+    height: 70px;
+    padding-top: 60px;
+    line-height: 1.5em;
+    font-size: 1.2em;
+}
+
+#container-footer {
+    max-width: 960px;
+    margin: auto;
+}
